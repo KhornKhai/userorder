@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="690dp"
+        android:layout_height="450dp"
+        android:contentDescription="Globe with location pin"
+        android:src="@drawable/image_3" />
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/st_3"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#41237c"
+        android:text="Started"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

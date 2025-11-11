@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="1dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/gate_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/img_cri"
+        android:src="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/gate_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</LinearLayout>

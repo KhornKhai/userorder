@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="BottomSheetDialog" parent="Theme.MaterialComponents.Light.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:background">@android:color/white</item>
+    <item name="android:windowMinWidthMajor">0%</item>
+    <item name="android:windowMinWidthMinor">0%</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:layout_gravity">bottom</item>
+</style>
+</resources>

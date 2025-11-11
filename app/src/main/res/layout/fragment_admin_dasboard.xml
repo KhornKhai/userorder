@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:layout_marginLeft="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Welcome to Admin Page"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="5dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner1" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Total Summary"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center"
+        android:background="@drawable/gridview_background_i">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/gridvieew_icon"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"> <!-- Add this line -->
+
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/total_user"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="3"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/gridvieew_icon"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"> <!-- Add this line -->
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/total_pro"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="67"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/gridvieew_icon"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"> <!-- Add this line -->
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/total_sale"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="24"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="@drawable/gridvieew_icon"
+            android:layout_height="60dp"
+            android:gravity="center"> <!-- Add this line -->
+            <ImageView
+                android:layout_width="30dp"
+                android:src="@drawable/total_price"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="340"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Management"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gridview_background_i">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:numColumns="2"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:padding="10dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

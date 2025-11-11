@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">shop</string>
+    <string-array name="user_types">
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+</resources>

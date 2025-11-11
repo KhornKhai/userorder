@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sh_1"
+        android:contentDescription="Globe with location pin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Oder Online iTems"
+        android:textColor="#41237c"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In an Shop e-commerce Order platform, the order process is a crucial component that ensures a smooth buying experience for customers."
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/st_1"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#41237c"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/gray"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
